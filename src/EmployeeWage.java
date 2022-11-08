@@ -2,6 +2,7 @@ package com.bridgelabz;
 
 public class EmployeeWage {
 
+ UC5_calculate-wage-for-month
     static final int WAGE_PER_HOUR = 20;
     static final int FULL_DAY_HOUR = 8;
     static final int PART_TIME__HOUR = 4;
@@ -30,6 +31,8 @@ public class EmployeeWage {
             }
             System.out.println("Employee daily wage: " + dayCount + " =>" + empWage);
             dayCount++;
+
+   
         }
     }
 }
